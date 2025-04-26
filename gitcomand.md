@@ -66,6 +66,17 @@
 | git branch | main  |
 | git push -f | override of the remote one |
 | git checkout lab | lab |
+<<<<<<< HEAD
+=======
+| echo "lab pull request" > pullrequest.txt | 
+|  git add pullrequest.txt |
+| git commit -m "update pullrequest" |
+| git push -u origin lab | create feature branch on github |
+
+*move to github and swith to our lab branch, choose "new pull request" - "creat pull request", see changed "File changed" - add command "start a review"*
+* add review to the PR in top "Conversation" - "reviers" --> Merge pull request *
+
+>>>>>>> lab
 
 
 
