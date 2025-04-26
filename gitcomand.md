@@ -23,6 +23,7 @@
 
 **create other repo local**
 - working on 1 repo github 
+
 | command | content |
 | ------- | ------- |
 | git clone https://github.com/nth85/gitlab.git repogitlab | Create local repo with name repogitlab folder |
@@ -32,11 +33,15 @@
 | git commit -m "test commit" - git push | |
 
 - from gitlab folder switches to main branch
+
 | command | content |
 | ------- | ------- |
 | git checkout main | |
 | git pull | pull from main branch |
 | git log | check all commit have from repogit folder |
+
+**marge branch**
+
 
 
 
