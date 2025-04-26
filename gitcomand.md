@@ -40,7 +40,33 @@
 | git pull | pull from main branch |
 | git log | check all commit have from repogit folder |
 
-**marge branch**
+**undoing changed have 2 options**
+
+| command | content |
+| ------- | ------- |
+| git log | enter "q" out log |
+| git log -n 10 | 
+| git revert <hash> | save that file by typing ":q", remove all changes from that commit  |
+| git reset <hash>  | revert hoàn nguyen, reset thiet lap lai |
+| git reset --soft <hash>  | removes commits from history but keeps changes |
+| git reset --hard <hash> | remove commit from history and remove changes |
+
+**git merge and pull request**
+- merge
+
+| command | content |
+| ------- | ------- |
+| git merge <name_branche> | merge into main branche |
+| git log | :q|
+
+- pull request
+
+| command | content |
+| ------- | ------- |
+| git branch | main  |
+| git push -f | override of the remote one |
+| git checkout lab | lab |
+
 
 
 
